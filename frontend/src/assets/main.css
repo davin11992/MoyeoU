@@ -1,0 +1,35 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-brand-light text-ink font-sans antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-lg bg-brand px-4 py-2 font-medium text-white transition-colors hover:bg-brand-hover;
+  }
+  .btn-outline {
+    @apply inline-flex items-center justify-center rounded-lg border border-line bg-white px-4 py-2 font-medium text-ink transition-colors hover:bg-brand-light;
+  }
+  .chip {
+    @apply inline-flex cursor-pointer items-center rounded-full border border-line bg-white px-3 py-1.5 text-sm text-ink transition-colors hover:border-brand hover:text-brand;
+  }
+  .chip-active {
+    @apply border-brand bg-brand text-white hover:text-white;
+  }
+  .card {
+    @apply rounded-xl border border-line bg-white p-5 transition-shadow hover:shadow-sm;
+  }
+  .field-label {
+    @apply mb-1.5 block text-sm font-medium text-ink;
+  }
+  .field-input {
+    @apply w-full rounded-lg border border-line bg-white px-3 py-2 text-ink outline-none transition-colors focus:border-brand;
+  }
+}

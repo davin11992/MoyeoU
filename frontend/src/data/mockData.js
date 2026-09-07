@@ -1,0 +1,118 @@
+// 간단한 목업 데이터 - 나중에 실제 API로 교체하세요.
+// 타깃: SSAFY 대전 캠퍼스 교육생
+
+export const meetings = [
+  {
+    id: 1,
+    title: '오늘 저녁 알고리즘 모각코',
+    category: 'CS·알고리즘',
+    date: '오늘',
+    time: '19:00',
+    location: 'SSAFY 대전 캠퍼스 스터디룸 A',
+    current: 2,
+    max: 4,
+    status: 'OPEN',
+    description:
+      '오늘 교육 끝나고 백준 골드 문제 같이 풀어요. 각자 노트북 챙겨오고, 막히는 문제는 서로 풀이 공유해요!',
+  },
+  {
+    id: 2,
+    title: '점심 같이 먹을 사람 (궁동)',
+    category: '점심·저녁',
+    date: '오늘',
+    time: '12:20',
+    location: '궁동 로데오거리',
+    current: 3,
+    max: 5,
+    status: 'OPEN',
+    description: '오전 세션 끝나고 궁동에서 점심 같이 먹어요. 오늘은 국밥 어떠세요? 편하게 오세요!',
+  },
+  {
+    id: 3,
+    title: '관통 프로젝트 팀원 구해요',
+    category: '프로젝트·팀원',
+    date: '내일',
+    time: '18:30',
+    location: 'SSAFY 대전 캠퍼스 라운지',
+    current: 2,
+    max: 6,
+    status: 'OPEN',
+    description:
+      '이번 관통 프로젝트 같이 할 팀원 모집합니다. 백엔드/프론트 상관없이 열심히 하실 분 환영해요. 기술 스택은 모여서 정해요.',
+  },
+  {
+    id: 4,
+    title: 'CS 기술면접 스터디 (주 2회)',
+    category: '취준·정보공유',
+    date: '이번 주',
+    time: '20:00',
+    location: '어은동 스터디카페',
+    current: 4,
+    max: 6,
+    status: 'OPEN',
+    description: 'CS 전공지식 + 기술면접 대비 스터디예요. 네트워크·운영체제·DB 순서로 돌아가며 발표합니다.',
+  },
+  {
+    id: 5,
+    title: '교육 끝나고 갑천 러닝 3km',
+    category: '운동·산책',
+    date: '오늘',
+    time: '19:30',
+    location: '갑천 산책로',
+    current: 4,
+    max: 6,
+    status: 'OPEN',
+    description: '하루 종일 앉아있었으니 같이 뛰어요! 천천히 3km 정도, 러닝 초보도 부담 없이 참여 가능합니다.',
+  },
+  {
+    id: 6,
+    title: '주말 리액트 사이드 프로젝트 모각코',
+    category: '모각코·스터디',
+    date: '토요일',
+    time: '14:00',
+    location: '둔산동 카페',
+    current: 1,
+    max: 5,
+    status: 'OPEN',
+    description: '주말에 각자 사이드 프로젝트 하면서 모각코해요. 취준 포트폴리오 준비하는 분들도 환영합니다.',
+  },
+]
+
+export const locations = [
+  {
+    id: 1,
+    name: 'SSAFY 대전 캠퍼스 라운지',
+    type: '캠퍼스',
+    address: '대전광역시 유성구 (SSAFY 대전 캠퍼스 내)',
+  },
+  {
+    id: 2,
+    name: '어은동 스터디카페',
+    type: '스터디',
+    address: '대전광역시 유성구 어은동 일대',
+  },
+  {
+    id: 3,
+    name: '궁동 로데오거리',
+    type: '맛집',
+    address: '대전광역시 유성구 궁동 일대',
+  },
+  {
+    id: 4,
+    name: '갑천 산책로',
+    type: '운동·산책',
+    address: '대전광역시 유성구 갑천 일대',
+  },
+  {
+    id: 5,
+    name: '유성온천역 카페거리',
+    type: '카페',
+    address: '대전광역시 유성구 봉명동 일대',
+  },
+  {
+    id: 6,
+    name: '한밭수목원',
+    type: '휴식',
+    address: '대전광역시 서구 둔산대로 169',
+  },
+]
